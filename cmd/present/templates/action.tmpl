@@ -60,3 +60,5 @@ It determines how the formatting actions are rendered.
 {{define "html"}}{{.HTML}}{{end}}
 
 {{define "caption"}}<figcaption>{{style .Text}}</figcaption>{{end}}
+
+{{define "richmd"}} <div class="richmd" data-url="{{.URL}}"></div> {{end}}
